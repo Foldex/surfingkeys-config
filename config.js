@@ -120,9 +120,9 @@ mapkey('u', '#3Restore closed tab', function() {
     RUNTIME("openLast");
 });
 // Scroll Page Down/Up
-mapkey('<Ctrl-d>', '#9Forward 20 lines', function() { Normal.feedkeys('3j'); });
-mapkey('<Ctrl-u>', '#9Forward 20 lines', function() { Normal.feedkeys('3k'); });
-mapkey('<Ctrl-Space>', '#9Forward 20 lines', function() { Normal.feedkeys('5k'); });
+mapkey('<Ctrl-d>', '#9Forward half page', function() { Normal.feedkeys('3j'); });
+mapkey('<Ctrl-u>', '#9Back half page', function() { Normal.feedkeys('3k'); });
+mapkey('<Ctrl-Space>', '#9Page Up', function() { Normal.feedkeys('5k'); });
 // Tab Next/Prev
 map('<Alt-j>', 'R');
 map('<Alt-k>', 'E');
