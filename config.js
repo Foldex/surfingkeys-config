@@ -52,7 +52,7 @@ settings.focusFirstCandidate = false;
 settings.focusAfterClosed = 'last';
 settings.scrollStepSize = 200;
 settings.tabsThreshold = 7;
-settings.startToShowEmoji = 2;
+settings.startToShowEmoji = 0;
 settings.modeAfterYank = 'Normal';
 
 // Search Engines
