@@ -326,6 +326,7 @@ input {
 .normal-mode .ace_cursor {
   background-color: var(--fg) !important;
   border: var(--fg) !important;
+  opacity: 0.7 !important;
 }
 
 .ace_marker-layer .ace_selection {
