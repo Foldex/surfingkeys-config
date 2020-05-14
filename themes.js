@@ -26,6 +26,14 @@ Visual.style('marks', 'background-color: #98be6599;');
 Visual.style('cursor', 'background-color: #51AFEF;');
 -- DELETE LINE TO ENABLE THEME */
 
+// Monokai
+/* -- DELETE LINE TO ENABLE THEME
+Hints.style('border: solid 2px #2D2E2E; color:#F92660; background: initial; background-color: #272822;');
+Hints.style("border: solid 2px #2D2E2E !important; padding: 1px !important; color: #A6E22E !important; background: #272822 !important;", "text");
+Visual.style('marks', 'background-color: #A6E22E99;');
+Visual.style('cursor', 'background-color: #F92660;');
+-- DELETE LINE TO ENABLE THEME */
+
 settings.theme = `
 /* Edit these variables for easy theme making */
 :root {
@@ -98,6 +106,27 @@ settings.theme = `
   /* --orange: #DA8548; */
   /* --red: #FF6C6B; */
   /* --yellow: #ECBE7B; */
+
+  /* -------------------- */
+  /* --    MONOKAI    -- */
+  /* -------------------- */
+  /* -- DELETE LINE TO ENABLE THEME
+  --fg: #F8F8F2;
+  --bg: #272822;
+  --bg-dark: #1D1E19;
+  --border: #2D2E2E;
+  --main-fg: #F92660;
+  --accent-fg: #E6DB74;
+  --info-fg: #A6E22E;
+  --select: #556172;
+  -- DELETE LINE TO ENABLE THEME */
+
+  /* Unused Alternate Colors */
+  /* --red: #E74C3C; */
+  /* --orange: #FD971F; */
+  /* --blue: #268BD2; */
+  /* --violet: #9C91E4; */
+  /* --cyan: #66D9EF; */
 }
 
 /* ---------- Generic ---------- */

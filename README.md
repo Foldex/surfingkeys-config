@@ -23,3 +23,8 @@ Uncomment theme of choice to enable.
 
 <img src="captures/doom_one_omni.png" title="doom_one omnibox"/>
 <img src="captures/doom_one_editor.png" title="doom_one editor"/>
+
+### Monokai
+
+<img src="captures/monokai_omni.png" title="monokai omnibox"/>
+<img src="captures/monokai_editor.png" title="monokai editor"/>
