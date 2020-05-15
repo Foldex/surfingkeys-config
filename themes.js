@@ -278,6 +278,7 @@ input {
 #sk_status,
 #sk_find {
   font-size: var(--font-size);
+  border-color: var(--border);
 }
 
 .sk_theme kbd {
