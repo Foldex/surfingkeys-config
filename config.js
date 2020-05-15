@@ -52,7 +52,6 @@ settings.focusFirstCandidate = false;
 settings.focusAfterClosed = 'last';
 settings.scrollStepSize = 200;
 settings.tabsThreshold = 7;
-settings.startToShowEmoji = 0;
 settings.modeAfterYank = 'Normal';
 
 // Search Engines
@@ -86,6 +85,9 @@ unmap('sps');
 unmap('cp');
 unmap(';cp');
 unmap(';ap');
+
+// Emoji
+iunmap(":");
 
 // Misc
 unmap(';t');
