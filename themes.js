@@ -237,6 +237,7 @@ input {
   background: var(--bg);
   border-color: var(--border);
   color: var(--fg);
+  opacity: 0.9;
 }
 
 /* ---------- Popup Keys ---------- */
