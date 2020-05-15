@@ -67,7 +67,7 @@ settings.theme = `
   /* --yellow: #CBCA77; */
 
   /* -------------------- */
-  /* -- NORD -- */
+  /* --      NORD      -- */
   /* -------------------- */
   /* -- DELETE LINE TO ENABLE THEME
   --fg: #E5E9F0;
@@ -130,7 +130,6 @@ settings.theme = `
 }
 
 /* ---------- Generic ---------- */
-
 .sk_theme {
 background: var(--bg);
 color: var(--fg);
@@ -178,7 +177,6 @@ input {
 }
 
 /* ---------- Omnibar ---------- */
-
 /* Uncomment this and use settings.omnibarPosition = 'bottom' for Pentadactyl/Tridactyl style bottom bar */
 /* .sk_theme#sk_omnibar {
   width: 100%;
