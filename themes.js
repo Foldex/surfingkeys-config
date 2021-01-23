@@ -161,7 +161,14 @@ input {
 #sk_tabs .sk_tab {
   background: var(--bg-dark);
   border: 1px solid var(--border);
+}
+
+#sk_tabs .sk_tab_title {
   color: var(--fg);
+}
+
+#sk_tabs .sk_tab_url {
+  color: var(--main-fg);
 }
 
 #sk_tabs .sk_tab_hint {
