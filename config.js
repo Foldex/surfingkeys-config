@@ -73,7 +73,7 @@ addSearchAliasX('mtg', 'mtg cards', 'https://scryfall.com/search?q=', 's');
 addSearchAliasX('r', 'reddit', 'https://old.reddit.com/r/', 's');
 addSearchAliasX('st', 'steam', 'https://store.steampowered.com/search/?term=', 's');
 addSearchAliasX('w', 'wikipedia', 'https://en.wikipedia.org/wiki/Special:Search/', 's');
-addSearchAliasX('y', 'invidious', 'https://invidio.us/search?q=', 's');
+addSearchAliasX('y', 'invidious', 'https://invidious.snopyta.org/search?q=', 's');
 
 // ---- Unmap -----
 // Proxy Stuff
