@@ -92,7 +92,7 @@ settings.theme = `
   --fg: #51AFEF;
   --bg: #2E3440;
   --bg-dark: #21242B;
-  --border: #282C34;
+  --border: #2257A0;
   --main-fg: #51AFEF;
   --accent-fg: #98be65;
   --info-fg: #C678DD;
@@ -100,8 +100,7 @@ settings.theme = `
   -- DELETE LINE TO ENABLE THEME */
 
   /* Unused Alternate Colors */
-  /* --bg-dark: #21242B; */
-  /* --main-fg-alt: #2257A0; */
+  /* --border-alt: #282C34; */
   /* --cyan: #46D9FF; */
   /* --orange: #DA8548; */
   /* --red: #FF6C6B; */
