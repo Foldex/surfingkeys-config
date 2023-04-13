@@ -35,7 +35,7 @@ settings.omnibarPosition = 'bottom';
 settings.focusFirstCandidate = false;
 settings.focusAfterClosed = 'last';
 settings.scrollStepSize = 200;
-settings.tabsThreshold = 7;
+settings.tabsThreshold = 0;
 settings.modeAfterYank = 'Normal';
 
 // ---- Map -----
@@ -57,8 +57,17 @@ mapkey('p', "Open the clipboard's URL in the current tab", () => { Clipboard.rea
 // Open Clipboard URL in new tab
 map('P', 'cc');
 
-// Current tab Omnibar
+// Open a URL in current tab
 map('o', 'go');
+
+// Choose a buffer/tab
+map('b', 'T');
+
+// Edit current URL, and open in same tab
+map('O', ';U');
+
+// Edit current URL, and open in new tab
+map('T', ';u');
 
 // History Back/Forward
 map('H', 'S');
@@ -66,7 +75,9 @@ map('L', 'D');
 
 // Scroll Page Down/Up
 mapkey("<Ctrl-d>", "Scroll down", () => { Normal.scroll("pageDown"); });
-mapkey("<Ctrl-u>", "Scroll down", () => { Normal.scroll("pageUp"); });
+mapkey("<Ctrl-u>", "Scroll up", () => { Normal.scroll("pageUp"); });
+map('<Ctrl-b>', 'U');  // scroll full page up
+//map('<Ctrl-f>', 'P');  // scroll full page down -- looks like we can't overwrite browser-native binding
 
 // Next/Prev Page
 map('K', '[[');
